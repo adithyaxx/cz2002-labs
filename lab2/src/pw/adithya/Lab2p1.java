@@ -55,7 +55,7 @@ public class Lab2p1 {
     {
         Scanner sc = new Scanner(System.in);
 
-        int countCorrect = 0, countWrong = 0;
+        int countCorrect = 0;
         for (int i=0; i < 5; i++) {
             int num1 = (int) (Math.random() * 10);
             int num2 = (int) (Math.random() * 10);
